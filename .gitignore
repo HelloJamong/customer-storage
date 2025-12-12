@@ -1,20 +1,8 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-.env
-venv/
-env/
-ENV/
-
-# Flask
-instance/
-.webassets-cache
-
 # Environment variables
 .env
+.env.*
+!.env.example
+!.env.*.example
 
 # Database
 *.db
@@ -48,3 +36,11 @@ DEPLOYMENT_GUIDE.md
 
 # Backend migration documentation
 BACKEND_SPEC.md
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/.vite/
